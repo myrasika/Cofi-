@@ -1,0 +1,9 @@
+{
+  "name": "cofi-soundscape",
+  "private": true,
+  "scripts": {
+    "proxy": "node audius-proxy.js",
+    "serve": "python3 -m http.server 8000",
+    "start": "node audius-proxy.js && sleep 2 && python3 -m http.server 8000"
+  }
+}
